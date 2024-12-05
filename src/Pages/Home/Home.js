@@ -3,6 +3,8 @@ import ProjectApp from "../../Components/ProjectApp/ProjectApp";
 import SkillApp from "../../Components/SkillApp/SkillApp";
 import AboutApp from "../../Components/AboutApp/AboutApp";
 import Contact from "../../Components/ContactApp/Contact";
+import AppAbout from "../../Components/AppAbout/AppAbout";
+import ProjectHome from "../ProjectHome/ProjectHome";
 
 const Home = () => {
   return (
@@ -11,6 +13,7 @@ const Home = () => {
       <div id="home" className="home w-full max-w-[1024px] h-auto mx-auto mt-10 px-4 mb-32 pt-10">
         <div className="container flex flex-col lg:flex-row items-center lg:items-start">
           <div className="flex-1">
+            <h1 className="text-[40px] lg:text-[42px] font-semibold text-white mb-10">Portfolio</h1>
             <h1 className="text-[24px] lg:text-[32px] font-semibold text-white">
               I'm a <span className="text-cyan-700">web developer</span>{" "}
               and <br className="hidden lg:block" />
@@ -23,17 +26,6 @@ const Home = () => {
               <a href="#contacts">Contact me!!</a>
             </button>
           </div>
-          <div className="flex-1 flex flex-col items-center lg:items-end mt-8 lg:mt-0">
-            <img
-              src="/images/me.png"
-              className="w-[250px] h-[230px] lg:w-[389px] lg:h-[356px]"
-              alt="Portfolio Owner"
-            />
-            <p className="text-slate-400 mt-0 border px-2 py-1 flex items-center gap-2 lg:mr-10">
-              <span className="w-3 h-3 bg-cyan-700 inline-block"></span>
-              Currently looking for work
-            </p>
-          </div>
         </div>
       </div>
 
@@ -41,12 +33,12 @@ const Home = () => {
       <div id="sections">
         <section id="projects" className="">
         <section id="about" className="">
-          <AboutApp />
+          <AppAbout />
         </section>
-          <ProjectApp />
+          <SkillApp />
         </section>
         <section id="skills" className="">
-          <SkillApp />
+         <ProjectHome/>
         </section>
         <section id="contacts" className="">
           <Contact />

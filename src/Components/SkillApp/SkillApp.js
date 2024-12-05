@@ -1,7 +1,7 @@
 import React from 'react'
 const SkillApp = () => {
   return (
-    <div className='skill w-full lg:w-[1024px] h-[365px] mx-auto lg:mt-60 md:mt-[600px] mt-[1200px] px-6 lg:mb-30 mb-40'>
+    <div className='skill w-full lg:w-[1024px] h-[365px] mx-auto lg:mt-60 md:mt-[600px] mt-[10px] px-6 lg:mb-30 mb-40'>
       <div className='container'>
         <div className='flex'>
         <h1 className="text-cyan-700 lg:text-[32px]">#</h1>

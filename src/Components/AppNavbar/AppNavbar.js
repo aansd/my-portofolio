@@ -11,26 +11,16 @@ const AppNavbar = () => {
   return (
     <div className='navbar w-full fixed top-[-10px] lg:left-40 lg:w-[1024px] lg:mx-auto py-7 px-5'>
       <div className='container flex justify-between'>
-            <h1 className='text-white flex'>Portofolio</h1>
+            <h1 className='text-white flex'>SEPTIYAN ABDURROHMAN</h1>
             <ul className={`flex transition-all lg:gap-10 md:gap-8 md:w-auto md:static fixed ${menuActive} md:h-full md:translate-y-0 md:transition-none md:p-0 md:m-0 md:flex-row top-1/4 -translate-y-1/2 flex-col px-5 py-6 text-cyan-700 lg:bg-transparent md:bg-transparent bg-slate-900 rounded`}>
             <li className="mb-2">
             <a href="/" className={isActive("/")}>
               <span className='text-cyan-700'>#</span><span>home</span>
             </a>
           </li>
-          <li className="mb-2">
+          {/* <li className="mb-2">
             <a href="/project" className={isActive("/project")}>
             <span className='text-cyan-700'>#</span><span>projects</span>
-            </a>
-          </li>
-          {/* <li className="mb-2">
-            <a href="#about" className={isActive("#about")}>
-            <span className='text-cyan-700'>#</span><span>about-me</span>
-            </a>
-          </li>
-          <li>
-            <a href="#contacts" className={isActive("#contacts")}>
-            <span className='text-cyan-700'>#</span><span>contacts</span>
             </a>
           </li> */}
             </ul>
