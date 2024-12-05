@@ -150,7 +150,7 @@ const ProjectTwo = () => {
           alt="Portfolio 1 - 2"
         />
        </div>
-       <div className='flex gap-3'>
+       <div className='flex gap-3 mb-3'>
        <img
           src="/images/landing-button-page-2.png"
           className=" lg:w-[80px] w-[60px] lg:h-[30px] h-[25px] rounded-md"
@@ -161,6 +161,9 @@ const ProjectTwo = () => {
           className=" lg:w-[70px] w-[60px] lg:h-[30px] h-[25px] rounded-md"
           alt="Portfolio 1 - 2"
         />
+       
+       </div>
+       <div>
        <img
           src="/images/landing-info-page-1.png"
           className=" lg:w-[500px] w-[300px] lg:h-[100px] h-[50px] rounded-md"
