@@ -199,12 +199,12 @@ const ProjectTwo = () => {
         />
        <img
           src="/images/landing-image-2-2.png"
-          className=" lg:w-[400px] w-[170px] lg:h-[300px] h-[120px] rounded-md"
+          className=" lg:w-[400px] w-[100px] lg:h-[300px] h-[70px] rounded-md"
           alt="Portfolio 1 - 2"
         />
        <img
           src="/images/landing-image-2-3.png"
-          className=" lg:w-[400px] w-[200px] lg:h-[300px] h-[140px] rounded-md"
+          className=" lg:w-[400px] w-[100px] lg:h-[300px] h-[80px] rounded-md"
           alt="Portfolio 1 - 2"
         />
        </div>
@@ -326,17 +326,17 @@ const ProjectTwo = () => {
         <div className='flex gap-3 mb-5'>
        <img
           src="/images/landing-image-5.png"
-          className=" lg:w-[320px] w-[145px] lg:h-[200px] h-[100px] rounded-md"
+          className=" lg:w-[320px] w-[100px] lg:h-[200px] h-[60px] rounded-md"
           alt="Portfolio 1 - 2"
         />
        <img
           src="/images/landing-image-6.png"
-          className=" lg:w-[320px] w-[145px] lg:h-[200px] h-[100px] rounded-md"
+          className=" lg:w-[320px] w-[100px] lg:h-[200px] h-[60px] rounded-md"
           alt="Portfolio 1 - 2"
         />
        <img
           src="/images/landing-image-7.png"
-          className=" lg:w-[320px] w-[145px] lg:h-[200px] h-[100px] rounded-md"
+          className=" lg:w-[320px] w-[100px] lg:h-[200px] h-[60px] rounded-md"
           alt="Portfolio 1 - 2"
         />
        
@@ -366,7 +366,7 @@ const ProjectTwo = () => {
         <div className='flex gap-3 mb-5'>
        <img
           src="/images/landing-image-8.png"
-          className=" lg:w-[400px] w-[200px] lg:h-[200px] h-[100px] rounded-md"
+          className=" lg:w-[400px] w-[100px] lg:h-[200px] h-[60px] rounded-md"
           alt="Portfolio 1 - 2"
         />
        <img

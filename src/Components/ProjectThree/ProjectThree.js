@@ -135,22 +135,22 @@ const ProjectThree = () => {
             <div className="flex gap-3 mb-5">
               <img
                 src="/images/pos-button-1.png"
-                className=" lg:w-[100px] w-[100px] h-auto rounded-md"
+                className=" lg:w-[100px] w-[60px] h-auto rounded-md"
                 alt="Portfolio"
               />
               <img
                 src="/images/pos-button-1-2.png"
-                className=" lg:w-[100px] w-[100px] lg:h-auto h-[30px] rounded-md"
+                className=" lg:w-[100px] w-[60px] lg:h-auto h-[20px] rounded-md"
                 alt="Portfolio"
               />
               <img
                 src="/images/pos-button-1-3.png"
-                className=" lg:w-[100px] w-[100px] lg:h-auto h-[30px] rounded-md"
+                className=" lg:w-[100px] w-[60px] lg:h-auto h-[20px] rounded-md"
                 alt="Portfolio"
               />
               <img
                 src="/images/pos-button-1-4.png"
-                className=" lg:w-[100px] w-[100px] lg:h-auto h-[30px] rounded-md"
+                className=" lg:w-[100px] w-[60px] lg:h-auto h-[20px] rounded-md"
                 alt="Portfolio"
               />
             </div>
@@ -336,7 +336,7 @@ const ProjectThree = () => {
           </h1>
           <div className="">
           <h1 className="text-slate-400 text-[20px] mb-2">Component</h1>
-          <div className="flex gap-3 mb-3">
+          <div className="flex gap-2 mb-3">
           <img
                 src="/images/pos-button-profile-1.png"
                 className=" lg:w-[100px] w-[50px] lg:h-[50px] h-[30px] rounded-md"
@@ -493,7 +493,7 @@ const ProjectThree = () => {
           <div className="">
           <img
                 src="/images/pos-button-confirmation-1.png"
-                className=" lg:w-[100px] w-[80px] lg:h-[45px] h-[40px] rounded-md mb-3"
+                className=" lg:w-[100px] w-[40px] lg:h-[45px] h-[20px] rounded-md mb-3"
                 alt="Portfolio"
               />
                <img
@@ -537,12 +537,12 @@ const ProjectThree = () => {
           <div className="flex gap-3"> 
           <img
                 src="/images/pos-button-confirmation-2.png"
-                className=" lg:w-[100px] w-[80px] lg:h-[45px] h-[40px] rounded-md mb-3"
+                className=" lg:w-[100px] w-[40px] lg:h-[45px] h-[20px] rounded-md mb-3"
                 alt="Portfolio"
               />
           <img
                 src="/images/pos-button-confirmation-3.png"
-                className=" lg:w-[100px] w-[80px] lg:h-[45px] h-[40px] rounded-md mb-3"
+                className=" lg:w-[100px] w-[40px] lg:h-[45px] h-[20px] rounded-md mb-3"
                 alt="Portfolio"
               />
           </div>
